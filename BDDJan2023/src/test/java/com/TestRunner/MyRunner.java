@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features= {"src/test/resources/Junt/"},
+		features= {"src/test/resources/Junt/TaskUpdate.feature"},
 		glue = { "parallel","AppHooks"}, 
 		dryRun =false, monochrome = true,
 		//tags= "@~ignore",
