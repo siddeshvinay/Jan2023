@@ -1,5 +1,6 @@
 Feature: Run somke test cases
 
+@sanity
    Scenario Outline: Login page title1
    Given Launch the browser
    And login to the application with user "admin" and "manager"
@@ -13,7 +14,7 @@ Feature: Run somke test cases
   |FName|MName|LNane|Email           |Username|Password  |RetypePassword |Monday | Tuesday | Wednesday | Thursday| Friday  |
   |Rahul|Mr  |Dravid  |wall_te@gmal.com |middle     |wall   |wall  |100    |101     | 111       |102      | 145  |
    
-   
+  @Regression 
  Scenario Outline: Login page title two
    Given Launch the browser
    And login to the application with user "admin" and "manager"

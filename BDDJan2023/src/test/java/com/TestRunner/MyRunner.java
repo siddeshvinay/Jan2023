@@ -8,10 +8,10 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features= {"src/test/resources/Junt/TaskUpdate.feature"},
+		features= {"src/test/resources/Junt/Smoke.feature"},
 		glue = { "parallel","AppHooks"}, 
 		dryRun =false, monochrome = true,
-		//tags= "@~ignore",
+		tags= "@Regression or @sanity",
 		plugin = { "pretty",
 						"html:target/MyReports/cucumber-html-report.html",  "json:target/MyReports/report.json","junit:target/MyReports/report.xml",
 						 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

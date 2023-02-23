@@ -1,15 +1,26 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "40aadf04-91f8-40c4-93a8-70e458378b57",
-    "feature": "Create Customer project and Tasks",
-    "scenario": "Create Customer and Projects",
-    "start": 1677123444113,
+    "id": "ac7ae162-d960-493f-8fc4-0ba01abf4c6e",
+    "feature": "Run somke test cases",
+    "scenario": "Login page title1",
+    "start": 1677127068508,
     "group": 1,
     "content": "",
-    "tags": "",
-    "end": 1677123459911,
-    "className": "failed"
+    "tags": "@sanity,",
+    "end": 1677127092854,
+    "className": "passed"
+  },
+  {
+    "id": "fd035ec0-0cc5-4cdc-aab6-3799cf1ebd09",
+    "feature": "Run somke test cases",
+    "scenario": "Login page title two",
+    "start": 1677127092869,
+    "group": 1,
+    "content": "",
+    "tags": "@regression,",
+    "end": 1677127116400,
+    "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
