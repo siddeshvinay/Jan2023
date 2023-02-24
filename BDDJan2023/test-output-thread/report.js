@@ -1,32 +1,32 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "ac7ae162-d960-493f-8fc4-0ba01abf4c6e",
+    "id": "42e43137-0653-4745-b88a-1af72df562f8",
     "feature": "Run somke test cases",
     "scenario": "Login page title1",
-    "start": 1677127068508,
+    "start": 1677235618140,
     "group": 1,
     "content": "",
     "tags": "@sanity,",
-    "end": 1677127092854,
+    "end": 1677235643074,
     "className": "passed"
   },
   {
-    "id": "fd035ec0-0cc5-4cdc-aab6-3799cf1ebd09",
+    "id": "c845ef7d-6717-4c24-8e94-d79bc3749e56",
     "feature": "Run somke test cases",
     "scenario": "Login page title two",
-    "start": 1677127092869,
+    "start": 1677235643098,
     "group": 1,
     "content": "",
     "tags": "@regression,",
-    "end": 1677127116400,
+    "end": 1677235668814,
     "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
     "id": 1,
-    "content": "Thread[main,5,main]"
+    "content": "Thread[#1,main,5,main]"
   }
 ]);
 });
